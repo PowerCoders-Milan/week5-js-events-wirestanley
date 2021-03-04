@@ -1,6 +1,8 @@
 # Bold on hover
 
-Write a JavaScript program to change the color of the bold words when the user hovers the link.
+let bolds = document.getElementsByTagName('strong')
+
+function highlight() { for (let i = 0; i < bolds.length; i++) { bolds[i].style.color = 'green' } }
 
 ## EXTRA (to do when everything is finished)
 
